@@ -1,7 +1,6 @@
 import re
 
 text = "My phone number is 9876543210 and email is test@gmail.com"
-
 # Match digits (phone number)
 phone = re.search(r"\d{10}", text)
 if phone:
